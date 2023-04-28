@@ -1,4 +1,6 @@
-package org.example.models;
+package org.example.models.viewModel;
+
+import org.example.models.Teacher;
 
 public class TeacherGroup extends Teacher {
 

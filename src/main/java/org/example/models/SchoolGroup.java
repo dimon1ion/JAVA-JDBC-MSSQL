@@ -1,19 +1,19 @@
 package org.example.models;
 
-public class Group {
+public class SchoolGroup {
 
     private int id;
     private String name;
     private int teacherId;
 
-    public Group() {
+    public SchoolGroup() {
     }
 
-    public Group(String name) {
+    public SchoolGroup(String name) {
         this.name = name;
     }
 
-    public Group(String name, int teacherId) {
+    public SchoolGroup(String name, int teacherId) {
         this.name = name;
         this.teacherId = teacherId;
     }
@@ -44,7 +44,7 @@ public class Group {
 
     @Override
     public String toString() {
-        return "Group{" +
+        return "SchoolGroup{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", teacherId=" + teacherId +
